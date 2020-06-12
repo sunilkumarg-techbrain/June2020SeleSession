@@ -1,0 +1,41 @@
+[ {
+  "uid" : "fd6f2c241c67e9a1",
+  "name" : "Perform Google Search",
+  "time" : {
+    "start" : 1591850898299,
+    "stop" : 1591850909631,
+    "duration" : 11332
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f1395750854478b1",
+  "name" : "Perform Google Search",
+  "time" : {
+    "start" : 1591850940394,
+    "stop" : 1591850971233,
+    "duration" : 30839
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9c58c8d66252524",
+  "name" : "Perform Google Search And Verify Result",
+  "time" : {
+    "start" : 1591851014325,
+    "stop" : 1591851053234,
+    "duration" : 38909
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f6a5211c26228a29",
+  "name" : "Perform Google Search And Verify Result",
+  "time" : {
+    "start" : 1591850899805,
+    "stop" : 1591850998905,
+    "duration" : 99100
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,59 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Google Search Page Parallel Test Suite" parallel="tests" thread-count="2">
+	<listeners>
+		<listener class-name="com.google.gmodule.googlesearch.TestListener"/>
+		<listener
+			class-name="com.google.gmodule.googlesearch.AnnotationTransformerListener"/>
+	</listeners>
+	<parameter name="hubUrl" value="http://localhost:5555/wd/hub"/>
+	<parameter name="remote" value="false"/>
+	<parameter name="browser" value="CHROME"/>
+	<parameter name="screenshotOnSuccess" value="on"/>
+	<test name="Google Search Module Parallel Test Suite - thread 1">
+		<groups>
+			<run>
+				<include name="beforeBatchRegression"/>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.google.gmodule.googlesearch.gsr.GS_GM_TC001_GMGS001_Perform_Google_Search_And_Verify_Result"/>
+		</classes>
+	</test>
+	<test name="Google Search Module Parallel Test Suite - thread 2">
+		<groups>
+			<run>
+				<include name="beforeBatchRegression"/>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.google.gmodule.googlesearch.gsr.GS_GM_TC002_GMGS001_Perform_Google_Search"/>		
+		</classes>
+	</test>
+	<test name="Google Search Module Parallel Test Suite - thread 3">
+		<groups>
+			<run>
+				<include name="beforeBatchRegression"/>
+			</run>
+		</groups>
+		<classes>
+		</classes>
+	</test>
+	<test name="Google Search Module Parallel Test Suite - thread 4">
+		<groups>
+			<run>
+				<include name="beforeBatchRegression"/>
+			</run>
+		</groups>
+		<classes>
+		</classes>
+	</test>
+	<test name="Google Search Module Parallel Test Suite - thread 5">
+		<groups>
+			<run>
+				<include name="beforeBatchRegression"/>
+			</run>
+		</groups>
+		<classes>
+		</classes>
+	</test>	
+</suite>

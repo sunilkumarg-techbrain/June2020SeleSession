@@ -1,0 +1,69 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "com.google.gmodule.googlesearch.gsr",
+    "children" : [ {
+      "name" : "GS_GM_TC002_GMGS001_Perform_Google_Search",
+      "children" : [ {
+        "name" : "searchTextAndVerifyResultTest",
+        "uid" : "fd6f2c241c67e9a1",
+        "parentUid" : "58a438e865e6e274e9a833b9ceefb09d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591850898299,
+          "stop" : 1591850909631,
+          "duration" : 11332
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{searchText=abc, sNo=1}", "CHROME", "http://192.168.0.115:5555/wd/hub", "false", "on" ]
+      }, {
+        "name" : "searchTextAndVerifyResultTest",
+        "uid" : "f1395750854478b1",
+        "parentUid" : "58a438e865e6e274e9a833b9ceefb09d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591850940394,
+          "stop" : 1591850971233,
+          "duration" : 30839
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{searchText=def, sNo=2}", "CHROME", "http://192.168.0.115:5555/wd/hub", "false", "on" ]
+      } ],
+      "uid" : "58a438e865e6e274e9a833b9ceefb09d"
+    }, {
+      "name" : "GS_GM_TC001_GMGS001_Perform_Google_Search_And_Verify_Result",
+      "children" : [ {
+        "name" : "searchTextAndVerifyResultTest",
+        "uid" : "f6a5211c26228a29",
+        "parentUid" : "7e6a1bfff48c7e599a677f73eb1d2ea2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591850899805,
+          "stop" : 1591850998905,
+          "duration" : 99100
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{searchText=abc, sNo=1}", "CHROME", "http://192.168.0.115:5555/wd/hub", "false", "on" ]
+      }, {
+        "name" : "searchTextAndVerifyResultTest",
+        "uid" : "9c58c8d66252524",
+        "parentUid" : "7e6a1bfff48c7e599a677f73eb1d2ea2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591851014325,
+          "stop" : 1591851053234,
+          "duration" : 38909
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{searchText=def, sNo=2}", "CHROME", "http://192.168.0.115:5555/wd/hub", "false", "on" ]
+      } ],
+      "uid" : "7e6a1bfff48c7e599a677f73eb1d2ea2"
+    } ],
+    "uid" : "com.google.gmodule.googlesearch.gsr"
+  } ]
+}

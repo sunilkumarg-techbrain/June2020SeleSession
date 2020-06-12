@@ -1,0 +1,472 @@
+{
+  "uid" : "f6a5211c26228a29",
+  "name" : "Perform Google Search And Verify Result",
+  "fullName" : "com.google.gmodule.googlesearch.gsr.GS_GM_TC001_GMGS001_Perform_Google_Search_And_Verify_Result.searchTextAndVerifyResultTest",
+  "historyId" : "31c4b57a00dc01dd0b6f5b50c11907c8",
+  "time" : {
+    "start" : 1591850899805,
+    "stop" : 1591850998905,
+    "duration" : 99100
+  },
+  "description" : "Test Description - Perform Google Search And Verify Result",
+  "descriptionHtml" : "<p>Test Description - Perform Google Search And Verify Result</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "pageSetup",
+    "time" : {
+      "start" : 1591850899748,
+      "stop" : 1591850899761,
+      "duration" : 13
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "testSetUp",
+    "time" : {
+      "start" : 1591850882253,
+      "stop" : 1591850899727,
+      "duration" : 17474
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "beforeSuiteSetup",
+    "time" : {
+      "start" : 1591850881722,
+      "stop" : 1591850882197,
+      "duration" : 475
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f89cf1164ed5326d",
+      "name" : "10:18:01 - Deleting previously exisitng screenshot directories ----",
+      "source" : "f89cf1164ed5326d.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "d2e420b7768f5479",
+      "name" : "10:18:02 - getScreenshotFolderLocation() - C:\\Users\\Sunil kumar\\git\\SeleniumJenkinsAllure\\..\\..\\Screenshots\\",
+      "source" : "d2e420b7768f5479.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Test Description - Perform Google Search And Verify Result",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c3afbc677f130cb8",
+      "name" : "10:18:19 - Test Case - GS_GM_TC001_GMGS001_Perform_Google_Search_And_Verify_Result with Thread Id:- 10",
+      "source" : "c3afbc677f130cb8.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "433be7840b5efed1",
+      "name" : "10:18:19 - googleSearchPage.getTitle() Google",
+      "source" : "433be7840b5efed1.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "5e09242329b025ee",
+      "name" : "10:18:41 - https://www.youtube.com/watch?v=75p-N9YKqNo",
+      "source" : "5e09242329b025ee.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "137392705b9f75fb",
+      "name" : "10:18:42 - https://www.youtube.com/watch?v=71h8MZshGSs",
+      "source" : "137392705b9f75fb.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "f8597b23149b349a",
+      "name" : "10:18:44 - https://www.youtube.com/watch?v=zAax3z5uQ2k",
+      "source" : "f8597b23149b349a.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "3993bd46a48b1a15",
+      "name" : "10:18:45 - https://www.youtube.com/watch?v=eegWzglBMh0",
+      "source" : "3993bd46a48b1a15.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "2a0966d28afb3d71",
+      "name" : "10:19:02 - https://www.youtube.com/watch?v=_UR-l3QI2nE",
+      "source" : "2a0966d28afb3d71.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "826b37a39a9bf211",
+      "name" : "10:19:03 - https://www.youtube.com/watch?v=uCIsBFV87-U",
+      "source" : "826b37a39a9bf211.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "4eb08344f20e0841",
+      "name" : "10:19:23 - https://www.youtube.com/watch?v=m0CBUEj2cE0",
+      "source" : "4eb08344f20e0841.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "ab74fd971d6b11c9",
+      "name" : "10:19:24 - https://www.youtube.com/watch?v=JztA7jArqiM",
+      "source" : "ab74fd971d6b11c9.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "42f9843cece481e2",
+      "name" : "10:19:26 - https://www.youtube.com/watch?v=K9AQhq6XxwI",
+      "source" : "42f9843cece481e2.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "db566d1de3e8a885",
+      "name" : "10:19:27 - https://www.youtube.com/watch?v=2OQgTbTugHc",
+      "source" : "db566d1de3e8a885.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "ac352542776e5ac9",
+      "name" : "10:19:28 - https://abc.com/",
+      "source" : "ac352542776e5ac9.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "d6d75402f49a71",
+      "name" : "10:19:30 - https://www.abc.net.au/",
+      "source" : "d6d75402f49a71.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "263e3c4b45728d87",
+      "name" : "10:19:31 - https://webcache.googleusercontent.com/search?q=cache:Bn5PWjsJSqoJ:https://www.abc.net.au/+&cd=12&hl=en&ct=clnk&gl=in",
+      "source" : "263e3c4b45728d87.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "ef4d5170a4d2358e",
+      "name" : "10:19:32 - https://twitter.com/ABC?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+      "source" : "ef4d5170a4d2358e.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "cf33ce91ac759099",
+      "name" : "10:19:33 - https://twitter.com/ABC/status/1270939565801590784?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet",
+      "source" : "cf33ce91ac759099.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "e4c263a291699b01",
+      "name" : "10:19:34 - https://twitter.com/ABC/status/1270939565801590784?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet",
+      "source" : "e4c263a291699b01.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "ff34970021a0dd40",
+      "name" : "10:19:35 - https://abcn.ws/3fd9rr0",
+      "source" : "ff34970021a0dd40.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "1fb36a81445c5ca0",
+      "name" : "10:19:36 - https://twitter.com/ABC/status/1270935437213872128?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet",
+      "source" : "1fb36a81445c5ca0.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "56185bcfd9359cca",
+      "name" : "10:19:37 - https://twitter.com/ABC/status/1270935437213872128?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet",
+      "source" : "56185bcfd9359cca.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "360720e00d44e0a5",
+      "name" : "10:19:38 - https://abcn.ws/3fccbop",
+      "source" : "360720e00d44e0a5.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "f742b23b42e25312",
+      "name" : "10:19:39 - https://twitter.com/ABC/status/1270934533232345094?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet",
+      "source" : "f742b23b42e25312.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "74124b8a8603ad7f",
+      "name" : "10:19:39 - https://twitter.com/ABC/status/1270934533232345094?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet",
+      "source" : "74124b8a8603ad7f.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "5d27b7e37971f1fa",
+      "name" : "10:19:40 - https://abcn.ws/3hcWJu2",
+      "source" : "5d27b7e37971f1fa.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "6b6e544acbc126d2",
+      "name" : "10:19:41 - https://twitter.com/ABC/status/1270931273817751552?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet",
+      "source" : "6b6e544acbc126d2.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "1ca7bd097f09ed5",
+      "name" : "10:19:42 - https://abcn.ws/2AWr7IB",
+      "source" : "1ca7bd097f09ed5.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "6badf761aea67b2f",
+      "name" : "10:19:42 - https://twitter.com/ABC/status/1270928253453316096?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet",
+      "source" : "6badf761aea67b2f.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "934cc135c007fbf1",
+      "name" : "10:19:43 - https://abcn.ws/3fbVRUA",
+      "source" : "934cc135c007fbf1.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "90743e62d37650a5",
+      "name" : "10:19:44 - https://twitter.com/ABC?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+      "source" : "90743e62d37650a5.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "98ffc58dfdf23fff",
+      "name" : "10:19:45 - https://en.wikipedia.org/wiki/Alphabet_song",
+      "source" : "98ffc58dfdf23fff.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "3d184bffa9a6273b",
+      "name" : "10:19:45 - https://www.youtube.com/watch?v=VLvsamvqCic",
+      "source" : "3d184bffa9a6273b.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "1f5c5a0b2dde8d20",
+      "name" : "10:19:46 - https://www.themeasuredmom.com/teaching-the-alphabet-to-preschoolers-why-and-how/",
+      "source" : "1f5c5a0b2dde8d20.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "da7c4fd582cbf536",
+      "name" : "10:19:46 - https://www.huffpost.com/entry/new-version-alphabet-song-2019-people-hate_n_5db719ffe4b006d49172d2d5",
+      "source" : "da7c4fd582cbf536.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "c361c8cf113eeecd",
+      "name" : "10:19:47 - https://www.abc.net.au/news/2020-06-11/history-of-alphabetical-order-a-to-z/12320808",
+      "source" : "c361c8cf113eeecd.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "533add49173c0f6f",
+      "name" : "10:19:48 - https://theconversation.com/cutting-the-abc-cuts-public-trust-a-cost-no-democracy-can-afford-140438",
+      "source" : "533add49173c0f6f.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "7b107a678ab10ae",
+      "name" : "10:19:48 - https://abcnews.go.com/Health/wireStory/homes-disabled-hit-hard-covid-faced-past-violations-71189019",
+      "source" : "7b107a678ab10ae.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "cc22aff5d2267fbd",
+      "name" : "10:19:49 - https://abcnews.go.com/",
+      "source" : "cc22aff5d2267fbd.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "215313a0ad1db1f7",
+      "name" : "10:19:50 - https://en.wikipedia.org/wiki/American_Broadcasting_Company",
+      "source" : "215313a0ad1db1f7.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "f16aaa89e6f78552",
+      "name" : "10:19:50 - https://webcache.googleusercontent.com/search?q=cache:wpsfdENliGcJ:https://en.wikipedia.org/wiki/American_Broadcasting_Company+&cd=45&hl=en&ct=clnk&gl=in",
+      "source" : "f16aaa89e6f78552.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "4647a80ec3df4d07",
+      "name" : "10:19:51 - https://www.google.com/search?q=related:https://en.wikipedia.org/wiki/American_Broadcasting_Company+abc&tbo=1&sa=X&ved=2ahUKEwjuopTe-vjpAhUkjuYKHZvNB1IQHzAsegQIDxAH",
+      "source" : "4647a80ec3df4d07.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "6368cd2701076877",
+      "name" : "10:19:52 - https://en.wikipedia.org/wiki/Blue_Network",
+      "source" : "6368cd2701076877.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "e37cbfe4b96d1d49",
+      "name" : "10:19:52 - https://en.wikipedia.org/wiki/720p",
+      "source" : "e37cbfe4b96d1d49.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "6746530c6c064be0",
+      "name" : "10:19:53 - https://en.wikipedia.org/wiki/High-definition_television",
+      "source" : "6746530c6c064be0.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "5806d6da7b57b112",
+      "name" : "10:19:54 - https://en.wikipedia.org/wiki/Letterbox",
+      "source" : "5806d6da7b57b112.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "a4a4db99ea3500bb",
+      "name" : "10:19:54 - https://www.abcmouse.com/",
+      "source" : "a4a4db99ea3500bb.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "bce4599c5f5948bb",
+      "name" : "10:19:55 - https://webcache.googleusercontent.com/search?q=cache:F2AAE9bu_ucJ:https://www.abcmouse.com/+&cd=46&hl=en&ct=clnk&gl=in",
+      "source" : "bce4599c5f5948bb.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "e209a760f7642cbb",
+      "name" : "10:19:56 - https://www.google.com/search?q=related:https://www.abcmouse.com/+abc&tbo=1&sa=X&ved=2ahUKEwjuopTe-vjpAhUkjuYKHZvNB1IQHzAtegQIERAF",
+      "source" : "e209a760f7642cbb.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "ca40e4d99d5e0406",
+      "name" : "10:19:56 - https://www.abc.org/",
+      "source" : "ca40e4d99d5e0406.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "a17cfcd655e9d49d",
+      "name" : "10:19:57 - https://webcache.googleusercontent.com/search?q=cache:E7DNw3fhQCMJ:https://www.abc.org/+&cd=47&hl=en&ct=clnk&gl=in",
+      "source" : "a17cfcd655e9d49d.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "92ef26bb6c6d92f6",
+      "name" : "10:19:58 - https://www.google.com/search?q=related:https://www.abc.org/+abc&tbo=1&sa=X&ved=2ahUKEwjuopTe-vjpAhUkjuYKHZvNB1IQHzAuegQIEhAF",
+      "source" : "92ef26bb6c6d92f6.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 51,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1591850998909,
+      "stop" : 1591851000294,
+      "duration" : 1385
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.google.gmodule.googlesearch.gsr.GS_GM_TC001_GMGS001_Perform_Google_Search_And_Verify_Result"
+  }, {
+    "name" : "testClass",
+    "value" : "com.google.gmodule.googlesearch.gsr.GS_GM_TC001_GMGS001_Perform_Google_Search_And_Verify_Result"
+  }, {
+    "name" : "testMethod",
+    "value" : "searchTextAndVerifyResultTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Google Search Page Parallel Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Google Search Module Parallel Test Suite - thread 1"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.google.gmodule.googlesearch.gsr.GS_GM_TC001_GMGS001_Perform_Google_Search_And_Verify_Result"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-P9ICOFD"
+  }, {
+    "name" : "thread",
+    "value" : "15140@DESKTOP-P9ICOFD.TestNG(10)"
+  }, {
+    "name" : "story",
+    "value" : "GS_GM_TC001_GMGS001"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "{searchText=abc, sNo=1}"
+  }, {
+    "name" : "browser",
+    "value" : "CHROME"
+  }, {
+    "name" : "hubUrl",
+    "value" : "http://192.168.0.115:5555/wd/hub"
+  }, {
+    "name" : "remote",
+    "value" : "false"
+  }, {
+    "name" : "screenshotOnSuccess",
+    "value" : "on"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f6a5211c26228a29.json",
+  "parameterValues" : [ "{searchText=abc, sNo=1}", "CHROME", "http://192.168.0.115:5555/wd/hub", "false", "on" ]
+}

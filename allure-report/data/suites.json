@@ -1,0 +1,77 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Google Search Page Parallel Test Suite",
+    "children" : [ {
+      "name" : "Google Search Module Parallel Test Suite - thread 2",
+      "children" : [ {
+        "name" : "com.google.gmodule.googlesearch.gsr.GS_GM_TC002_GMGS001_Perform_Google_Search",
+        "children" : [ {
+          "name" : "Perform Google Search",
+          "uid" : "fd6f2c241c67e9a1",
+          "parentUid" : "e3fccd0e3e28e5aee7e4c25aaad6a42c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1591850898299,
+            "stop" : 1591850909631,
+            "duration" : 11332
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{searchText=abc, sNo=1}", "CHROME", "http://192.168.0.115:5555/wd/hub", "false", "on" ]
+        }, {
+          "name" : "Perform Google Search",
+          "uid" : "f1395750854478b1",
+          "parentUid" : "e3fccd0e3e28e5aee7e4c25aaad6a42c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1591850940394,
+            "stop" : 1591850971233,
+            "duration" : 30839
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{searchText=def, sNo=2}", "CHROME", "http://192.168.0.115:5555/wd/hub", "false", "on" ]
+        } ],
+        "uid" : "e3fccd0e3e28e5aee7e4c25aaad6a42c"
+      } ],
+      "uid" : "c9690a02abed65867ca7de5d9dabb1f0"
+    }, {
+      "name" : "Google Search Module Parallel Test Suite - thread 1",
+      "children" : [ {
+        "name" : "com.google.gmodule.googlesearch.gsr.GS_GM_TC001_GMGS001_Perform_Google_Search_And_Verify_Result",
+        "children" : [ {
+          "name" : "Perform Google Search And Verify Result",
+          "uid" : "f6a5211c26228a29",
+          "parentUid" : "6a852a20a37629ff6858f15d6fddcce1",
+          "status" : "passed",
+          "time" : {
+            "start" : 1591850899805,
+            "stop" : 1591850998905,
+            "duration" : 99100
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{searchText=abc, sNo=1}", "CHROME", "http://192.168.0.115:5555/wd/hub", "false", "on" ]
+        }, {
+          "name" : "Perform Google Search And Verify Result",
+          "uid" : "9c58c8d66252524",
+          "parentUid" : "6a852a20a37629ff6858f15d6fddcce1",
+          "status" : "passed",
+          "time" : {
+            "start" : 1591851014325,
+            "stop" : 1591851053234,
+            "duration" : 38909
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{searchText=def, sNo=2}", "CHROME", "http://192.168.0.115:5555/wd/hub", "false", "on" ]
+        } ],
+        "uid" : "6a852a20a37629ff6858f15d6fddcce1"
+      } ],
+      "uid" : "cb77066195a29b7ec191bd21adab5f15"
+    } ],
+    "uid" : "ccdefb7eda5f895277bd0e1d533cbefa"
+  } ]
+}

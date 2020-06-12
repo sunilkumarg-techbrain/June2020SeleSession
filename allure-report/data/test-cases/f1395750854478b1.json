@@ -1,0 +1,178 @@
+{
+  "uid" : "f1395750854478b1",
+  "name" : "Perform Google Search",
+  "fullName" : "com.google.gmodule.googlesearch.gsr.GS_GM_TC002_GMGS001_Perform_Google_Search.searchTextAndVerifyResultTest",
+  "historyId" : "fdd53c277d8cd42ef9d0b697928e47c7",
+  "time" : {
+    "start" : 1591850940394,
+    "stop" : 1591850971233,
+    "duration" : 30839
+  },
+  "description" : "Test Description - Perform Google Search",
+  "descriptionHtml" : "<p>Test Description - Perform Google Search</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "pageSetup",
+    "time" : {
+      "start" : 1591850940382,
+      "stop" : 1591850940384,
+      "duration" : 2
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "testSetUp",
+    "time" : {
+      "start" : 1591850913518,
+      "stop" : 1591850940374,
+      "duration" : 26856
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "beforeSuiteSetup",
+    "time" : {
+      "start" : 1591850881722,
+      "stop" : 1591850882197,
+      "duration" : 475
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f89cf1164ed5326d",
+      "name" : "10:18:01 - Deleting previously exisitng screenshot directories ----",
+      "source" : "f89cf1164ed5326d.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "d2e420b7768f5479",
+      "name" : "10:18:02 - getScreenshotFolderLocation() - C:\\Users\\Sunil kumar\\git\\SeleniumJenkinsAllure\\..\\..\\Screenshots\\",
+      "source" : "d2e420b7768f5479.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Test Description - Perform Google Search",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "bd1e30b4235cb455",
+      "name" : "10:19 - Test Case - GS_GM_TC002_GMGS001_Perform_Google_Search with Thread Id:- 11",
+      "source" : "bd1e30b4235cb455.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "6d43d87e4137f7fb",
+      "name" : "10:19 - googleSearchPage.getTitle() Google",
+      "source" : "6d43d87e4137f7fb.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1591850971238,
+      "stop" : 1591850973555,
+      "duration" : 2317
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.google.gmodule.googlesearch.gsr.GS_GM_TC002_GMGS001_Perform_Google_Search"
+  }, {
+    "name" : "testClass",
+    "value" : "com.google.gmodule.googlesearch.gsr.GS_GM_TC002_GMGS001_Perform_Google_Search"
+  }, {
+    "name" : "testMethod",
+    "value" : "searchTextAndVerifyResultTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Google Search Page Parallel Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Google Search Module Parallel Test Suite - thread 2"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.google.gmodule.googlesearch.gsr.GS_GM_TC002_GMGS001_Perform_Google_Search"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-P9ICOFD"
+  }, {
+    "name" : "thread",
+    "value" : "15140@DESKTOP-P9ICOFD.TestNG(11)"
+  }, {
+    "name" : "story",
+    "value" : "GS_GM_TC002_GMGS001"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "{searchText=def, sNo=2}"
+  }, {
+    "name" : "browser",
+    "value" : "CHROME"
+  }, {
+    "name" : "hubUrl",
+    "value" : "http://192.168.0.115:5555/wd/hub"
+  }, {
+    "name" : "remote",
+    "value" : "false"
+  }, {
+    "name" : "screenshotOnSuccess",
+    "value" : "on"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f1395750854478b1.json",
+  "parameterValues" : [ "{searchText=def, sNo=2}", "CHROME", "http://192.168.0.115:5555/wd/hub", "false", "on" ]
+}

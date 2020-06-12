@@ -1,0 +1,69 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-P9ICOFD",
+    "children" : [ {
+      "name" : "15140@DESKTOP-P9ICOFD.TestNG(10)",
+      "children" : [ {
+        "name" : "Perform Google Search And Verify Result",
+        "uid" : "9c58c8d66252524",
+        "parentUid" : "d0567011f6ad69c92f90e1e2fc5bf2aa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591851014325,
+          "stop" : 1591851053234,
+          "duration" : 38909
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{searchText=def, sNo=2}", "CHROME", "http://192.168.0.115:5555/wd/hub", "false", "on" ]
+      }, {
+        "name" : "Perform Google Search And Verify Result",
+        "uid" : "f6a5211c26228a29",
+        "parentUid" : "d0567011f6ad69c92f90e1e2fc5bf2aa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591850899805,
+          "stop" : 1591850998905,
+          "duration" : 99100
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{searchText=abc, sNo=1}", "CHROME", "http://192.168.0.115:5555/wd/hub", "false", "on" ]
+      } ],
+      "uid" : "d0567011f6ad69c92f90e1e2fc5bf2aa"
+    }, {
+      "name" : "15140@DESKTOP-P9ICOFD.TestNG(11)",
+      "children" : [ {
+        "name" : "Perform Google Search",
+        "uid" : "fd6f2c241c67e9a1",
+        "parentUid" : "be714f115ff4b62913099d96316dd5fe",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591850898299,
+          "stop" : 1591850909631,
+          "duration" : 11332
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{searchText=abc, sNo=1}", "CHROME", "http://192.168.0.115:5555/wd/hub", "false", "on" ]
+      }, {
+        "name" : "Perform Google Search",
+        "uid" : "f1395750854478b1",
+        "parentUid" : "be714f115ff4b62913099d96316dd5fe",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591850940394,
+          "stop" : 1591850971233,
+          "duration" : 30839
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{searchText=def, sNo=2}", "CHROME", "http://192.168.0.115:5555/wd/hub", "false", "on" ]
+      } ],
+      "uid" : "be714f115ff4b62913099d96316dd5fe"
+    } ],
+    "uid" : "fb3689cd8f8d8fa10a9774b7e492de03"
+  } ]
+}

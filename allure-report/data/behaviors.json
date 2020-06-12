@@ -1,0 +1,65 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "GS_GM_TC002_GMGS001",
+    "children" : [ {
+      "name" : "Perform Google Search",
+      "uid" : "fd6f2c241c67e9a1",
+      "parentUid" : "92e5589f2904a0d2ba19283642d957bc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591850898299,
+        "stop" : 1591850909631,
+        "duration" : 11332
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{searchText=abc, sNo=1}", "CHROME", "http://192.168.0.115:5555/wd/hub", "false", "on" ]
+    }, {
+      "name" : "Perform Google Search",
+      "uid" : "f1395750854478b1",
+      "parentUid" : "92e5589f2904a0d2ba19283642d957bc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591850940394,
+        "stop" : 1591850971233,
+        "duration" : 30839
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{searchText=def, sNo=2}", "CHROME", "http://192.168.0.115:5555/wd/hub", "false", "on" ]
+    } ],
+    "uid" : "92e5589f2904a0d2ba19283642d957bc"
+  }, {
+    "name" : "GS_GM_TC001_GMGS001",
+    "children" : [ {
+      "name" : "Perform Google Search And Verify Result",
+      "uid" : "f6a5211c26228a29",
+      "parentUid" : "b161af3903743f57930fb973c21c8df0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591850899805,
+        "stop" : 1591850998905,
+        "duration" : 99100
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{searchText=abc, sNo=1}", "CHROME", "http://192.168.0.115:5555/wd/hub", "false", "on" ]
+    }, {
+      "name" : "Perform Google Search And Verify Result",
+      "uid" : "9c58c8d66252524",
+      "parentUid" : "b161af3903743f57930fb973c21c8df0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591851014325,
+        "stop" : 1591851053234,
+        "duration" : 38909
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{searchText=def, sNo=2}", "CHROME", "http://192.168.0.115:5555/wd/hub", "false", "on" ]
+    } ],
+    "uid" : "b161af3903743f57930fb973c21c8df0"
+  } ]
+}
